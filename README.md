@@ -25,8 +25,8 @@ The dataset was created to support research in computer vision, precision agricu
 ## Annotation Preview
 
 <p align="center">
-  <img src="Roboflow-Polygons.png" width="45%" alt="Polygon-based weed annotations">
-  <img src="Roboflow-labels.png" width="45%" alt="Weed annotation labels">
+  <img src="figures/Roboflow-Polygons.png" width="45%" alt="Polygon-based weed annotations">
+  <img src="figures/Roboflow-labels.png" width="45%" alt="Weed annotation labels">
 </p>
 
 <p align="center">
