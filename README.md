@@ -1,2 +1,96 @@
-# A-UAV-Dataset-for-Crop-Monitoring-Weed-Mapping-and-Field-Analysis-in-Camelina-sativa
-UAV RGB and multispectral dataset for crop monitoring, weed mapping, and field analysis in Camelina sativa fields.
+# A UAV Dataset for Crop Monitoring, Weed Mapping, and Field Analysis in *Camelina sativa*
+
+<p align="center">
+  <b>UAV RGB and multispectral imagery for weed mapping, crop monitoring, and field-level analysis in <i>Camelina sativa</i> fields.</b>
+</p>
+
+<p align="center">
+  <a href="DATASET_DOWNLOAD_LINK"><b>Download Dataset</b></a> •
+  <a href="PAPER_LINK"><b>Read Paper</b></a> •
+  <a href="DOI_LINK"><b>DOI</b></a>
+</p>
+
+---
+
+## Overview
+
+This repository provides documentation for a UAV-based dataset collected in *Camelina sativa* fields in Greece.
+
+The dataset includes RGB and multispectral UAV imagery acquired from agricultural fields in Thessaloniki and Chalkidiki during summer 2025 and winter 2025–2026. It contains manually annotated RGB images with polygon-based weed annotations, as well as unannotated RGB images, multispectral images, raw UAV images, and orthomosaic products.
+
+The dataset was created to support research in computer vision, precision agriculture, weed detection, crop monitoring, and field-level analysis under realistic agricultural conditions.
+
+---
+
+## Annotation Preview
+
+<p align="center">
+  <img src="Roboflow-Polygons.png" width="45%" alt="Polygon-based weed annotations">
+  <img src="Roboflow-labels.png" width="45%" alt="Weed annotation labels">
+</p>
+
+<p align="center">
+  <i>Examples of polygon-based weed annotations generated in Roboflow. The dataset includes class-specific labels and manually annotated weed instances.</i>
+</p>
+
+---
+
+## Why This Dataset Is Useful
+
+This dataset is designed to help researchers and developers evaluate computer vision and precision agriculture methods in real field conditions.
+
+It provides:
+
+- UAV imagery from real *Camelina sativa* cultivation fields
+- Data from multiple locations in Greece
+- Data from different seasons and crop growth stages
+- RGB and multispectral UAV imagery
+- Multiple UAV platforms and flight altitudes
+- Different spatial resolutions and ground sampling distances
+- Expert polygon annotations of weed instances
+- Both coarse weed categories and species-level labels
+- Orthomosaic products for large-scale field analysis
+
+The dataset can be used for weed detection, semantic segmentation, instance segmentation, object detection, classification, hierarchical learning, crop monitoring, and weed distribution analysis.
+
+---
+
+## Dataset Contents
+
+| Data type | Description |
+|---|---|
+| Annotated RGB images | 1120 UAV RGB images with polygon-based weed annotations |
+| Annotations | JSON polygon annotations generated in Roboflow |
+| Unannotated RGB images | Additional UAV RGB images without annotations |
+| Multispectral images | UAV multispectral images including Green, Red, Red Edge, and Near Infrared bands |
+| Raw UAV images | RGB and multispectral images used for orthomosaic reconstruction |
+| Orthomosaics | RGB and multispectral orthomosaic products in GeoTIFF format |
+| Metadata | Flight information, field coordinates, camera information, and acquisition details |
+
+---
+
+## UAV Data Summary
+
+| Season | Location | Acquisition setting | Annotated | Unannotated | Orthomosaic |
+|---|---|---|---:|---:|:---:|
+| Summer 2025 | Thessaloniki | Phantom flight at 5 m altitude | 34 | 32 | ✗ |
+| Summer 2025 | Thessaloniki | Phantom flight at 10 m altitude | 297 | 46 | ✗ |
+| Winter 2025–2026 | Thessaloniki | Phantom flight at 3 m altitude | 17 | 32 | ✗ |
+| Winter 2025–2026 | Thessaloniki | Mavic 3M flight 1 at 2 m altitude | 627 | 215 | ✗ |
+| Winter 2025–2026 | Thessaloniki | Mavic 3M flight 1 at 2 m altitude MS | — | 842 | ✗ |
+| Winter 2025–2026 | Thessaloniki | Mavic 3M flight 2 at 2 m altitude | 47 | 193 | ✗ |
+| Winter 2025–2026 | Thessaloniki | Mavic 3M flight 2 at 2 m altitude MS | — | 240 | ✗ |
+| Winter 2025–2026 | Thessaloniki | Mavic 3M Orthomosaic 20 m Altitude RGB | — | 227 | ✓ |
+| Winter 2025–2026 | Thessaloniki | Mavic 3M Orthomosaic 20 m Altitude MS | — | 908 | ✓ |
+| Winter 2025–2026 | Chalkidiki | Phantom flight at 3 m altitude | 43 | 159 | ✗ |
+| Winter 2025–2026 | Chalkidiki | Phantom flight at 5 m altitude | 55 | 144 | ✗ |
+| Winter 2025–2026 | Chalkidiki | Mavic 3M Orthomosaic 20 m Altitude RGB | — | 1351 | ✓ |
+| Winter 2025–2026 | Chalkidiki | Mavic 3M Orthomosaic 20 m Altitude MS | — | 5404 | ✓ |
+
+---
+
+## Dataset Structure
+
+```text
+dataset/
+├── 
