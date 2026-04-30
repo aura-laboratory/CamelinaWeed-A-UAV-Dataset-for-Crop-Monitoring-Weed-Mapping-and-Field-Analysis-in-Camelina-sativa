@@ -58,6 +58,39 @@ The dataset was created to support research in computer vision, precision agricu
 
 ## Dataset Structure
 
+The dataset is organized hierarchically by acquisition season, location, UAV flight/acquisition setting, and data type.
+
 ```text
 dataset/
-├── 
+├── Summer 2025/
+│   └── Thessaloniki/
+│       ├── Phantom Flight at 5 m Altitude/
+│       │   ├── Annotated/
+│       │   │   ├── images/
+│       │   │   └── annotations.json
+│       │   └── Unannotated/
+│       │       └── images/
+│       └── ...
+│
+└── Winter 2025-2026/
+    ├── Thessaloniki/
+    │   ├── Phantom Flight at 3 m Altitude/
+    │   │   ├── Annotated/
+    │   │   │   ├── images/
+    │   │   │   └── annotations.json
+    │   │   └── Unannotated/
+    │   │       └── images/
+    │   ├── ...
+    │   ├── Orthomosaic_RGB.tif
+    │   └── Orthomosaic_MS.tif
+    │
+    └── Chalkidiki/
+        ├── Phantom Flight at 3 m Altitude/
+        │   ├── Annotated/
+        │   │   ├── images/
+        │   │   └── annotations.json
+        │   └── Unannotated/
+        │       └── images/
+        ├── ...
+        ├── Orthomosaic_RGB.tif
+        └── Orthomosaic_MS.tif
