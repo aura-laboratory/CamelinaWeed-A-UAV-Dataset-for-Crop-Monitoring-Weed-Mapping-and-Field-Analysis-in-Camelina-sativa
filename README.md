@@ -35,27 +35,6 @@ The dataset was created to support research in computer vision, precision agricu
 
 ---
 
-## Why This Dataset Is Useful
-
-This dataset is designed to help researchers and developers evaluate computer vision and precision agriculture methods in real field conditions.
-
-It provides:
-
-- UAV imagery from real *Camelina sativa* cultivation fields
-- Data from multiple locations in Greece
-- Data from different seasons and crop growth stages
-- RGB and multispectral UAV imagery
-- Multiple UAV platforms and flight altitudes
-- Different spatial resolutions and ground sampling distances
-- Expert polygon annotations of weed instances
-- Both coarse weed categories and species-level labels
-- Orthomosaic products for large-scale field analysis
-
-The dataset can be used for weed detection, semantic segmentation, instance segmentation, object detection, classification, hierarchical learning, crop monitoring, and weed distribution analysis.
-
----
-
-
 
 ## UAV Data Summary
 
