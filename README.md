@@ -55,19 +55,7 @@ The dataset can be used for weed detection, semantic segmentation, instance segm
 
 ---
 
-## Dataset Contents
 
-| Data type | Description |
-|---|---|
-| Annotated RGB images | 1120 UAV RGB images with polygon-based weed annotations |
-| Annotations | JSON polygon annotations generated in Roboflow |
-| Unannotated RGB images | Additional UAV RGB images without annotations |
-| Multispectral images | UAV multispectral images including Green, Red, Red Edge, and Near Infrared bands |
-| Raw UAV images | RGB and multispectral images used for orthomosaic reconstruction |
-| Orthomosaics | RGB and multispectral orthomosaic products in GeoTIFF format |
-| Metadata | Flight information, field coordinates, camera information, and acquisition details |
-
----
 
 ## UAV Data Summary
 
