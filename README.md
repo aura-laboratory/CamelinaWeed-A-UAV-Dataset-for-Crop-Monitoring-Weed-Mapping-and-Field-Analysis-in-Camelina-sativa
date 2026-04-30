@@ -1,12 +1,12 @@
 # A UAV Dataset for Crop Monitoring, Weed Mapping, and Field Analysis in *Camelina sativa*
 
 <p align="center">
-  <b>UAV RGB and multispectral imagery for weed mapping, crop monitoring, and field-level analysis in <i>Camelina sativa</i> fields.</b>
+  <b>RGB and multispectral UAV imagery with polygon-based weed annotations for precision agriculture research.</b>
 </p>
 
 <p align="center">
-  <a href="DATASET_DOWNLOAD_LINK"><b>Download Dataset</b></a> •
-  <a href="PAPER_LINK"><b>Read Paper</b></a> •
+  <a href="DATASET_DOWNLOAD_LINK"><b>Dataset</b></a> ·
+  <a href="PAPER_LINK"><b>Paper</b></a> ·
   <a href="DOI_LINK"><b>DOI</b></a>
 </p>
 
