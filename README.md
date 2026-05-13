@@ -30,12 +30,14 @@ The dataset was created to support research in computer vision, precision agricu
 ## Annotation Preview
 
 <p align="center">
-  <img src="figures/Raw UAV-acquired image.JPG" width="45%" alt="Polygon-based weed annotations">
-  <img src="figures/Roboflow-labels.png" width="45%" alt="Weed annotation labels">
+  <img src="figures/Raw UAV-acquired image.JPG" width="45%">
+  &nbsp;&nbsp;
+  <img src="figures/weed-mapping-annotation-example.png" width="45%">
 </p>
 
 <p align="center">
-  <i>Examples of polygon-based weed annotations generated in Roboflow. The dataset includes class-specific labels and manually annotated weed instances.</i>
+  <b>From raw UAV imagery to expert-annotated weed maps.</b><br>
+  <i>Example of polygon-based weed annotations for field-level weed monitoring.</i>
 </p>
 
 ---
