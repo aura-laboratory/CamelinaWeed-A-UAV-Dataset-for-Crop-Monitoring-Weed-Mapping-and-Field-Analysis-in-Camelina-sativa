@@ -101,6 +101,18 @@ The dataset was created to support research in computer vision, precision agricu
 | Chalkidiki | Phantom flight at 3 m altitude | Phantom 4 Pro | RGB | 0.08 |
 | Chalkidiki | Phantom flight at 5 m altitude | Phantom 4 Pro | RGB | 0.14 |
 
+
+## Weed Detection Model Performance
+
+| Metric | Value |
+|---|---:|
+| Precision | 0.895 |
+| Recall | 0.842 |
+| F1-score | 0.870 |
+| mAP@50 | 0.892 |
+| mAP@50–95 | 0.704 |
+| Inference speed | 9.8 ms/image |
+
 ## Dataset Structure
 
 The dataset is organized hierarchically by acquisition season, location, UAV flight/acquisition setting, and data type.
