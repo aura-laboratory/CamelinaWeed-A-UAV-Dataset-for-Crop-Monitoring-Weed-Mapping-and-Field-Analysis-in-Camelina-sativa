@@ -1,4 +1,4 @@
-# A UAV Dataset for Crop Monitoring, Weed Mapping, and Field Analysis in *Camelina sativa*
+# CamelinaWeed: An Expert-Agronomist-Annotated UAV RGB and Multispectral Dataset for Weed and Crop Monitoring in *Camelina sativa*
 
 <p align="center">
   <b>RGB and multispectral UAV imagery with polygon-based weed annotations for precision agriculture research.</b>
