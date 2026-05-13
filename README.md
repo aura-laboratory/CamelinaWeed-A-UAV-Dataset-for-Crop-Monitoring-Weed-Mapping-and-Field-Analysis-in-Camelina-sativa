@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
-  <img src="figures/CamelinaWeed.png" width="170">
+  <img src="figures/CamelinaWeed.png" width="370">
 </p>
----
+
 
 ## Overview
 
