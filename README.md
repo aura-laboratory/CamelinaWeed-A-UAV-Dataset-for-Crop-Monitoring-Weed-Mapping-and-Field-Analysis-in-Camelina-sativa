@@ -1,6 +1,6 @@
 <p>
   <img
-    src="figures/Camelina Weed.png"
+    src="figures/CamelinaWeed.png"
     width="150"
     align="left"
     style="margin-right: 25px;"
