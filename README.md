@@ -1,9 +1,9 @@
 <p align="left">
   <img 
     src="figures/CamelinaWeed.png" 
-    width="180" 
+    width="190" 
     align="left"
-    style="margin-top: 25px; margin-right: 25px;"
+    style="margin-top: 50px; margin-right: 40px;"
   />
 
   <h1>
