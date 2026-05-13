@@ -1,19 +1,17 @@
-<p align="left">
-  <img 
-    src="figures/CamelinaWeed.png" 
-    width="180" 
+<p>
+  <img
+    src="figures/Camelina Weed.png"
+    width="150"
     align="left"
-    style="margin-right: 30px;"
+    style="margin-right: 25px;"
   />
 
-  <h1 style="line-height: 1.2;">
+  <span style="font-size: 2.3em; font-weight: 700; line-height: 1.15;">
     CamelinaWeed: An Expert-Agronomist-Annotated UAV RGB and Multispectral Dataset for Weed and Crop Monitoring in <i>Camelina sativa</i>
-  </h1>
+  </span>
 </p>
 
 <br clear="left"/>
-
-
 
 
 <p align="center">
