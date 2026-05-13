@@ -91,7 +91,7 @@ The following tables summarize the main flight and imaging parameters used durin
 ### Flight Parameters for Orthomosaic Generation
 
 | Location | Acquisition setting | Drone | Camera | GSD (cm/pixel) | Frontlap (%) | Sidelap (%) |
-|---|---|---|---|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Thessaloniki | Mavic 3M flight at 20 m altitude RGB | Mavic 3M | RGB | 0.5 | 85 | 70 |
 | Thessaloniki | Mavic 3M flight at 20 m altitude MS | Mavic 3M | MS | 0.5 | 85 | 70 |
 | Chalkidiki | Mavic 3M flight at 20 m altitude RGB | Mavic 3M | RGB | 0.5 | 85 | 70 |
@@ -100,7 +100,7 @@ The following tables summarize the main flight and imaging parameters used durin
 ### Flight Parameters for Weed Detection
 
 | Location | Acquisition setting | Drone | Camera | GSD (cm/pixel) |
-|---|---|---|---|---:|
+|:---:|:---:|:---:|:---:|:---:|
 | Thessaloniki | Phantom flight at 5 m altitude | Phantom 4 Pro | RGB | 0.14 |
 | Thessaloniki | Phantom flight at 10 m altitude | Phantom 4 Pro | RGB | 0.27 |
 | Thessaloniki | Phantom flight at 3 m altitude | Phantom 4 Pro | RGB | 0.08 |
@@ -117,7 +117,7 @@ The following tables summarize the main flight and imaging parameters used durin
 To provide a baseline evaluation of the proposed UAV weed detection dataset, the RT-DETR-L object detection model was trained to detect two weed categories: broadleaf and narrowleaf weeds. The following table reports the main evaluation metrics obtained after training RT-DETR-L for 200 epochs using tiled image patches with an input resolution of 768 × 768 pixels.
 
 | Metric | Value |
-|---|---:|
+|:---:|:---:|
 | Precision | 0.895 |
 | Recall | 0.842 |
 | F1-score | 0.870 |
