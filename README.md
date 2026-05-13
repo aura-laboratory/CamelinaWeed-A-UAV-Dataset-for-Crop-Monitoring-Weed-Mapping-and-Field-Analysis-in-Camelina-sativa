@@ -58,20 +58,21 @@ The dataset was created to support research in computer vision, precision agricu
 
 ## UAV Data Summary
 The following tables summarize the UAV imagery included in the dataset. The data are organized into two groups: **Data for Orthomosaic Generation**, which includes full-field acquisitions used to produce orthomosaic products, and **Data for Weed Detection**, which includes image sets categorized according to the presence or absence of visible weeds.
+
+
 ## Data for Orthomosaic Generation
 
 | Season | Location | Acquisition setting | Images | Orthomosaic |
-|---|---|---|---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 | Winter 2025–2026 | Thessaloniki | Mavic 3M flight at 20 m altitude RGB | 227 | ✓ |
 | Winter 2025–2026 | Thessaloniki | Mavic 3M flight at 20 m altitude MS | 908 | ✓ |
 | Winter 2025–2026 | Chalkidiki | Mavic 3M flight at 20 m altitude RGB | 1351 | ✓ |
 | Winter 2025–2026 | Chalkidiki | Mavic 3M flight at 20 m altitude MS | 5404 | ✓ |
 
-
 ## Data for Weed Detection 
 
 | Season | Location | Acquisition setting | Weed-positive images | Weed-negative images |
-|---|---|---|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|
 | Summer 2025 | Thessaloniki | Phantom flight at 5 m altitude | 34 | 32 |
 | Summer 2025 | Thessaloniki | Phantom flight at 10 m altitude | 297 | 46 |
 | Winter 2025–2026 | Thessaloniki | Phantom flight at 3 m altitude | 17 | 32 |
