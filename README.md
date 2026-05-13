@@ -57,8 +57,8 @@ The dataset was created to support research in computer vision, precision agricu
 
 
 ## UAV Data Summary
-
-## Orthomosaic Data
+The following tables summarize the UAV imagery included in the dataset. The data are organized into two groups: **Data for Orthomosaic Generation**, which includes full-field acquisitions used to produce orthomosaic products, and **Data for Weed Detection**, which includes image sets categorized according to the presence or absence of visible weeds.
+## Data for Orthomosaic Generation
 
 | Season | Location | Acquisition setting | Images | Orthomosaic |
 |---|---|---|---:|:---:|
@@ -68,7 +68,7 @@ The dataset was created to support research in computer vision, precision agricu
 | Winter 2025–2026 | Chalkidiki | Mavic 3M flight at 20 m altitude MS | 5404 | ✓ |
 
 
-## Weed Detection Data
+## Data for Weed Detection 
 
 | Season | Location | Acquisition setting | Weed-positive images | Weed-negative images |
 |---|---|---|---:|---:|
@@ -85,7 +85,9 @@ The dataset was created to support research in computer vision, precision agricu
 
 ## UAV Flight Parameters
 
-### Orthomosaic Generation
+The following tables summarize the main flight and imaging parameters used during UAV data acquisition. Parameters are reported separately for **Flight Parameters for Orthomosaic Generation**, where full-field coverage required predefined overlap settings, and **Flight Parameters for Weed Detection**, where low-altitude flights were used to capture detailed crop and weed imagery at different spatial resolutions.
+
+### Flight Parameters for Orthomosaic Generation
 
 | Location | Acquisition setting | Drone | Camera | GSD (cm/pixel) | Frontlap (%) | Sidelap (%) |
 |---|---|---|---|---:|---:|---:|
@@ -94,7 +96,7 @@ The dataset was created to support research in computer vision, precision agricu
 | Chalkidiki | Mavic 3M flight at 20 m altitude RGB | Mavic 3M | RGB | 0.5 | 85 | 70 |
 | Chalkidiki | Mavic 3M flight at 20 m altitude MS | Mavic 3M | MS | 0.5 | 85 | 70 |
 
-### Weed Detection
+### Flight Parameters for Weed Detection
 
 | Location | Acquisition setting | Drone | Camera | GSD (cm/pixel) |
 |---|---|---|---|---:|
@@ -109,7 +111,9 @@ The dataset was created to support research in computer vision, precision agricu
 | Chalkidiki | Phantom flight at 5 m altitude | Phantom 4 Pro | RGB | 0.14 |
 
 
-## Weed Detection Model Performance
+## Dataset Evaluation with RT-DETR-L
+
+To provide a baseline evaluation of the proposed UAV weed detection dataset, the RT-DETR-L object detection model was trained to detect two weed categories: broadleaf and narrowleaf weeds. The following table reports the main evaluation metrics obtained after training RT-DETR-L for 200 epochs using tiled image patches with an input resolution of 768 × 768 pixels.
 
 | Metric | Value |
 |---|---:|
