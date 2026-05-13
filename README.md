@@ -6,7 +6,7 @@
     style="margin-right: 25px;"
   />
 
-  <span style="font-size: 4.3em; font-weight: 700; line-height: 1.15;">
+  <span style="font-size: 40.3em; font-weight: 700; line-height: 1.15;">
     CamelinaWeed: An Expert-Agronomist-Annotated UAV RGB and Multispectral Dataset for Weed and Crop Monitoring in <i>Camelina sativa</i>
   </span>
 </p>
