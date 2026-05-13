@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="figures/CamelinaWeed.png" width="370">
+  <img src="figures/CamelinaWeed.png" width="470">
 </p>
 
 
