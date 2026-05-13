@@ -23,7 +23,7 @@
 - [Specifications Table](#specifications-table)
 - [UAV Data Summary](#uav-data-summary)
 - [UAV Flight Parameters](#uav-flight-parameters)
-- [Dataset Evaluation with RT-DETR-L](#dataset-evaluation-with-rt-detr-l)
+- [Dataset Evaluation](#dataset-evaluation)
 - [Dataset Structure](#dataset-structure)
 
   
@@ -121,7 +121,7 @@ The following tables summarize the main flight and imaging parameters used durin
 | Chalkidiki | Phantom flight at 5 m altitude | Phantom 4 Pro | RGB | 0.14 |
 
 
-## Dataset Evaluation with RT-DETR-L
+## Dataset Evaluation
 
 To provide a baseline evaluation of the proposed UAV weed detection dataset, the RT-DETR-L object detection model was trained to detect two weed categories: broadleaf and narrowleaf weeds. The following table reports the main evaluation metrics obtained after training RT-DETR-L for 200 epochs using tiled image patches with an input resolution of 768 × 768 pixels.
 
