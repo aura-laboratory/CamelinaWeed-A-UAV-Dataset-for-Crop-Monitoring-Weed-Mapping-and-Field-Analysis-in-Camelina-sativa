@@ -36,8 +36,8 @@ The dataset was created to support research in computer vision, precision agricu
 </p>
 
 <p align="center">
-  <b>From raw UAV imagery to expert-annotated weed maps.</b><br>
-  <i>Example of polygon-based weed annotations for field-level weed monitoring.</i>
+<b>Turning raw UAV imagery into precise weed intelligence.</b><br>
+<i>Expert polygon annotations for field-level weed detection, mapping, and monitoring.</i>
 </p>
 
 ---
