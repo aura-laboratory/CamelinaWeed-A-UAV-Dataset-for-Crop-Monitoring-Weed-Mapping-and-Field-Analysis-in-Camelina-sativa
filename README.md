@@ -10,6 +10,14 @@
   <a href="https://doi.org/10.5281/zenodo.20148697"><b>DOI</b></a>
 </p>
 
+
+<p align="center">
+  <img src="figures/CamelinaWeed.png" width="650">
+</p>
+
+<p align="center">
+  <em>CamelinaWeed: UAV RGB and multispectral imagery with expert weed annotations.</em>
+</p>
 ---
 
 ## Overview
