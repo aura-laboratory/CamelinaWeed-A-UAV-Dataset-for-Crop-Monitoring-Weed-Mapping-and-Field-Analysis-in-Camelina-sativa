@@ -53,6 +53,7 @@ The dataset was created to support research in computer vision, precision agricu
   <i>Example of polygon-based weed annotations for field-level weed monitoring.</i>
 </p>
 
+
 ---
 
 ## Specifications Table
