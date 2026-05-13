@@ -1,18 +1,20 @@
-<table>
-<tr>
-<td width="140">
+<table style="border: none; border-collapse: collapse;">
+<tr style="border: none;">
 
-<img src="figures/CamelinaWeed.png" width="110">
+<td style="border: none;" width="170">
+
+<img src="figures/CamelinaWeed.png" width="150">
 
 </td>
 
-<td>
+<td style="border: none; vertical-align: middle;">
 
-<h1>
+<h1 style="border-bottom: none;">
 CamelinaWeed: An Expert-Agronomist-Annotated UAV RGB and Multispectral Dataset for Weed and Crop Monitoring in <i>Camelina sativa</i>
 </h1>
 
 </td>
+
 </tr>
 </table>
 
