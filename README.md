@@ -172,6 +172,8 @@ CamelinaWeed/
         ├── ...
         ├── Orthomosaic_RGB.tif
         └── Orthomosaic_MS.tif
+
+
 ## Data Preparation and Visualization Tools
 
 The repository includes utility scripts for annotation visualization and dataset preparation for YOLO-based object detection and segmentation workflows.
