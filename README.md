@@ -1,15 +1,15 @@
-<table style="border: none; border-collapse: collapse;">
-<tr style="border: none;">
+<table cellpadding="0" cellspacing="0" style="border:none;">
+<tr style="border:none;">
 
-<td style="border: none;" width="170">
+<td style="border:none; padding-right:20px;" valign="middle">
 
-<img src="figures/CamelinaWeed.png" width="150">
+<img src="figures/CamelinaWeed.png" width="190">
 
 </td>
 
-<td style="border: none; vertical-align: middle;">
+<td style="border:none;" valign="middle">
 
-<h1 style="border-bottom: none;">
+<h1 style="margin:0; border:none;">
 CamelinaWeed: An Expert-Agronomist-Annotated UAV RGB and Multispectral Dataset for Weed and Crop Monitoring in <i>Camelina sativa</i>
 </h1>
 
@@ -17,7 +17,6 @@ CamelinaWeed: An Expert-Agronomist-Annotated UAV RGB and Multispectral Dataset f
 
 </tr>
 </table>
-
 
 
 <p align="center">
