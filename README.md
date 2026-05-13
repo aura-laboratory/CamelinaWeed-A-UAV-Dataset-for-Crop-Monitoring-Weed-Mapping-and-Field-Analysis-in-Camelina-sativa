@@ -7,7 +7,7 @@
 <p align="center">
   <a href="DATASET_DOWNLOAD_LINK"><b>Dataset</b></a> ·
   <a href="PAPER_LINK"><b>Paper</b></a> ·
-  <a href="DOI_LINK"><b>DOI</b></a>
+  <a href="https://doi.org/10.5281/zenodo.20148697"><b>DOI</b></a>
 </p>
 
 ---
@@ -35,26 +35,71 @@ The dataset was created to support research in computer vision, precision agricu
 
 ---
 
+## Specifications Table
+
+| Field | Description |
+|---|---|
+| **Subject** | Computer Science |
+| **Specific subject area** | Computer Vision, Precision Agriculture, Weed Detection |
+| **Type of data** | RGB images, annotation masks |
+| **How data were acquired** | UAV imagery was acquired using a **DJI Phantom 4 Pro** and a **DJI Mavic 3M**. <br><br> **DJI Phantom 4 Pro:** RGB camera, 1'' CMOS, 20 MP effective pixels, FOV 84°, 8.8 mm / 24 mm equivalent focal length, f/2.8–f/11, autofocus from 1 m to ∞. <br><br> **DJI Mavic 3M RGB camera:** 4/3 CMOS, 20 MP effective pixels, FOV 84°, 24 mm equivalent focal length, f/2.8–f/11, focus from 1 m to ∞. <br><br> **DJI Mavic 3M multispectral camera:** 1/2.8-inch CMOS, 5 MP effective pixels, FOV 73.91° (61.2° × 48.10°), 25 mm equivalent focal length, f/2.0, fixed focus. Bands: Green (560 ± 16 nm), Red (650 ± 16 nm), Red Edge (730 ± 16 nm), Near Infrared (860 ± 26 nm). |
+| **Data format** | Annotated RGB images: **1120 JPEG images**; raw unannotated RGB images: **JPEG**; polygon annotations: **JSON**; orthomosaics: **GeoTIFF**; multispectral images: **multi-band TIFF**. |
+| **Description of data collection** | RGB images were collected while UAVs performed coverage missions over *Camelina sativa* fields. During flights, the camera gimbal was adjusted to **-89°**, vertically oriented toward the field. Image acquisition was performed at flight altitudes of **2 m, 3 m, 5 m, and 10 m**, depending on the field and UAV platform. Flight speed was set to **3 m/s**. The dataset includes data from three agricultural fields in **Thessaloniki** and **Chalkidiki, Greece**, during summer and winter cultivation periods. |
+| **Data source location** | **Winter cultivation field — Thessaloniki, Greece:** <br> `[40.766551, 22.993202; 40.766327, 22.994137; 40.767043, 22.994564; 40.767380, 22.993470]` <br><br> **Winter cultivation field — Chalkidiki, Greece:** <br> `[40.368424, 23.068174; 40.368555, 23.069137; 40.369965, 23.068723; 40.369791, 23.067736]` <br><br> **Summer cultivation field — Thessaloniki, Greece:** <br> `[40.565772, 22.990067; 40.566154, 22.991342; 40.568324, 22.989971; 40.567646, 22.988174; 40.566623, 22.988909]` |
+| **Data accessibility** | **Repository name:** *A UAV Dataset for Crop Monitoring, Weed Mapping, and Field Analysis in Camelina sativa* <br><br> **Direct URL to data:** [GitHub repository](https://github.com/aura-laboratory/A-UAV-Dataset-for-Crop-Monitoring-Weed-Mapping-and-Field-Analysis-in-Camelina-sativa) <br><br> **DOI:** [10.5281/zenodo.20148697](https://doi.org/10.5281/zenodo.20148697) <br><br> **Database description:** GitHub repository containing dataset documentation, dataset structure, annotation information, and download instructions. |
+
 
 ## UAV Data Summary
 
-| Season | Location | Acquisition setting | Annotated | Unannotated | Orthomosaic |
-|---|---|---|---:|---:|:---:|
-| Summer 2025 | Thessaloniki | Phantom flight at 5 m altitude | 34 | 32 | ✗ |
-| Summer 2025 | Thessaloniki | Phantom flight at 10 m altitude | 297 | 46 | ✗ |
-| Winter 2025–2026 | Thessaloniki | Phantom flight at 3 m altitude | 17 | 32 | ✗ |
-| Winter 2025–2026 | Thessaloniki | Mavic 3M flight 1 at 2 m altitude | 627 | 215 | ✗ |
-| Winter 2025–2026 | Thessaloniki | Mavic 3M flight 1 at 2 m altitude MS | — | 842 | ✗ |
-| Winter 2025–2026 | Thessaloniki | Mavic 3M flight 2 at 2 m altitude | 47 | 193 | ✗ |
-| Winter 2025–2026 | Thessaloniki | Mavic 3M flight 2 at 2 m altitude MS | — | 240 | ✗ |
-| Winter 2025–2026 | Thessaloniki | Mavic 3M Orthomosaic 20 m Altitude RGB | — | 227 | ✓ |
-| Winter 2025–2026 | Thessaloniki | Mavic 3M Orthomosaic 20 m Altitude MS | — | 908 | ✓ |
-| Winter 2025–2026 | Chalkidiki | Phantom flight at 3 m altitude | 43 | 159 | ✗ |
-| Winter 2025–2026 | Chalkidiki | Phantom flight at 5 m altitude | 55 | 144 | ✗ |
-| Winter 2025–2026 | Chalkidiki | Mavic 3M Orthomosaic 20 m Altitude RGB | — | 1351 | ✓ |
-| Winter 2025–2026 | Chalkidiki | Mavic 3M Orthomosaic 20 m Altitude MS | — | 5404 | ✓ |
+## Orthomosaic Data
 
----
+| Season | Location | Acquisition setting | Images | Orthomosaic |
+|---|---|---|---:|:---:|
+| Winter 2025–2026 | Thessaloniki | Mavic 3M flight at 20 m altitude RGB | 227 | ✓ |
+| Winter 2025–2026 | Thessaloniki | Mavic 3M flight at 20 m altitude MS | 908 | ✓ |
+| Winter 2025–2026 | Chalkidiki | Mavic 3M flight at 20 m altitude RGB | 1351 | ✓ |
+| Winter 2025–2026 | Chalkidiki | Mavic 3M flight at 20 m altitude MS | 5404 | ✓ |
+
+
+## Weed Detection Data
+
+| Season | Location | Acquisition setting | Weed-positive images | Weed-negative images |
+|---|---|---|---:|---:|
+| Summer 2025 | Thessaloniki | Phantom flight at 5 m altitude | 34 | 32 |
+| Summer 2025 | Thessaloniki | Phantom flight at 10 m altitude | 297 | 46 |
+| Winter 2025–2026 | Thessaloniki | Phantom flight at 3 m altitude | 17 | 32 |
+| Winter 2025–2026 | Thessaloniki | Mavic 3M flight 1 at 2 m altitude | 627 | 215 |
+| Winter 2025–2026 | Thessaloniki | Mavic 3M flight 1 at 2 m altitude MS | — | 842 |
+| Winter 2025–2026 | Thessaloniki | Mavic 3M flight 2 at 2 m altitude | 47 | 193 |
+| Winter 2025–2026 | Thessaloniki | Mavic 3M flight 2 at 2 m altitude MS | — | 240 |
+| Winter 2025–2026 | Chalkidiki | Phantom flight at 3 m altitude | 43 | 159 |
+| Winter 2025–2026 | Chalkidiki | Phantom flight at 5 m altitude | 55 | 144 |
+
+
+## UAV Flight Parameters
+
+### Orthomosaic Generation
+
+| Location | Acquisition setting | Drone | Camera | GSD (cm/pixel) | Frontlap (%) | Sidelap (%) |
+|---|---|---|---|---:|---:|---:|
+| Thessaloniki | Mavic 3M flight at 20 m altitude RGB | Mavic 3M | RGB | 0.5 | 85 | 70 |
+| Thessaloniki | Mavic 3M flight at 20 m altitude MS | Mavic 3M | MS | 0.5 | 85 | 70 |
+| Chalkidiki | Mavic 3M flight at 20 m altitude RGB | Mavic 3M | RGB | 0.5 | 85 | 70 |
+| Chalkidiki | Mavic 3M flight at 20 m altitude MS | Mavic 3M | MS | 0.5 | 85 | 70 |
+
+### Weed Detection
+
+| Location | Acquisition setting | Drone | Camera | GSD (cm/pixel) |
+|---|---|---|---|---:|
+| Thessaloniki | Phantom flight at 5 m altitude | Phantom 4 Pro | RGB | 0.14 |
+| Thessaloniki | Phantom flight at 10 m altitude | Phantom 4 Pro | RGB | 0.27 |
+| Thessaloniki | Phantom flight at 3 m altitude | Phantom 4 Pro | RGB | 0.08 |
+| Thessaloniki | Mavic 3M flight 1 at 2 m altitude | Mavic 3M | RGB | 0.15 |
+| Thessaloniki | Mavic 3M flight 1 at 2 m altitude MS | Mavic 3M | MS | 0.15 |
+| Thessaloniki | Mavic 3M flight 2 at 2 m altitude | Mavic 3M | RGB | 0.15 |
+| Thessaloniki | Mavic 3M flight 2 at 2 m altitude MS | Mavic 3M | MS | 0.15 |
+| Chalkidiki | Phantom flight at 3 m altitude | Phantom 4 Pro | RGB | 0.08 |
+| Chalkidiki | Phantom flight at 5 m altitude | Phantom 4 Pro | RGB | 0.14 |
 
 ## Dataset Structure
 
