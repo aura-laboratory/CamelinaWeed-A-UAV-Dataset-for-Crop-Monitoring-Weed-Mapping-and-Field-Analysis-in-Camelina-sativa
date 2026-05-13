@@ -3,7 +3,7 @@
     src="figures/CamelinaWeed.png" 
     width="190" 
     align="left"
-    style="margin-top: 50px; margin-right: 40px;"
+    style="margin-top: 500px; margin-right: 40px;"
   />
 
   <h1>
