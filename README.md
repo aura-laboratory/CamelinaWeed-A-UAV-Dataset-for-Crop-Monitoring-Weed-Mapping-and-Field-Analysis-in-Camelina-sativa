@@ -219,7 +219,7 @@ python scripts/visualize_annotations.py \
 Run for YOLO segmentation:
 
 ```bash
-python scripts/prepare_dataset.py \
+python prepare_dataset.py \
   --input "Summer 2025/Thessaloniki/Phantom Flight at 10 m Altitude/Annotated" \
   --output prepared_dataset \
   --task segmentation
@@ -228,7 +228,7 @@ python scripts/prepare_dataset.py \
 Run for YOLO detection:
 
 ```bash
-python scripts/prepare_dataset.py \
+python prepare_dataset.py \
   --input "Summer 2025/Thessaloniki/Phantom Flight at 10 m Altitude/Annotated" \
   --output prepared_dataset_detection \
   --task detection
@@ -237,7 +237,7 @@ python scripts/prepare_dataset.py \
 Run recursively for all annotated folders:
 
 ```bash
-python scripts/prepare_dataset.py \
+python prepare_dataset.py \
   --input "." \
   --output prepared_dataset \
   --task segmentation
