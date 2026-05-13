@@ -172,7 +172,7 @@ CamelinaWeed/
         ├── ...
         ├── Orthomosaic_RGB.tif
         └── Orthomosaic_MS.tif
-
+```
 
 ## Data Preparation and Visualization Tools
 
