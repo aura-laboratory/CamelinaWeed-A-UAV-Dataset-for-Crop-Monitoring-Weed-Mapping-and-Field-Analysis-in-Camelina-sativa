@@ -25,7 +25,7 @@
 - [UAV Flight Parameters](#uav-flight-parameters)
 - [Dataset Evaluation](#dataset-evaluation)
 - [Dataset Structure](#dataset-structure)
-
+- [Data Preparation and Visualization Tools](#data-preparation-and-visualization-tools)
   
 ## Overview
 
@@ -172,3 +172,71 @@ CamelinaWeed/
         ├── ...
         ├── Orthomosaic_RGB.tif
         └── Orthomosaic_MS.tif
+## Data Preparation and Visualization Tools
+
+The repository includes utility scripts for annotation visualization and dataset preparation for YOLO-based object detection and segmentation workflows.
+
+### 1. Visualize COCO Polygon Annotations
+
+`visualize_annotations.py` visualizes polygon-based COCO annotations on UAV RGB imagery. The script supports displaying annotations interactively or exporting annotated images for inspection and quality control.
+
+Run for one image:
+
+```bash
+python scripts/visualize_annotations.py \
+  --input "Summer 2025/Thessaloniki/Phantom Flight at 10 m Altitude/Annotated" \
+  --image "DJI_0051_JPG.rf.nh87J09No53uRJWaoKVC.JPG" \
+  --show-labels \
+  --display
+```
+
+Run for one image and save the result:
+
+```bash
+python scripts/visualize_annotations.py \
+  --input "Summer 2025/Thessaloniki/Phantom Flight at 10 m Altitude/Annotated" \
+  --image "DJI_0051_JPG.rf.nh87J09No53uRJWaoKVC.JPG" \
+  --show-labels \
+  --save
+```
+
+Run for all images:
+
+```bash
+python scripts/visualize_annotations.py \
+  --input "Summer 2025/Thessaloniki/Phantom Flight at 10 m Altitude/Annotated" \
+  --all \
+  --show-labels \
+  --save
+```
+
+### 2. Prepare Dataset for YOLO Training
+
+`prepare_dataset.py` converts COCO polygon annotations into YOLO-compatible detection or segmentation datasets. The script automatically creates train/validation/test splits, generates YOLO label files, and creates a `data.yaml` configuration file.
+
+Run for YOLO segmentation:
+
+```bash
+python scripts/prepare_dataset.py \
+  --input "Summer 2025/Thessaloniki/Phantom Flight at 10 m Altitude/Annotated" \
+  --output prepared_dataset \
+  --task segmentation
+```
+
+Run for YOLO detection:
+
+```bash
+python scripts/prepare_dataset.py \
+  --input "Summer 2025/Thessaloniki/Phantom Flight at 10 m Altitude/Annotated" \
+  --output prepared_dataset_detection \
+  --task detection
+```
+
+Run recursively for all annotated folders:
+
+```bash
+python scripts/prepare_dataset.py \
+  --input "." \
+  --output prepared_dataset \
+  --task segmentation
+```
