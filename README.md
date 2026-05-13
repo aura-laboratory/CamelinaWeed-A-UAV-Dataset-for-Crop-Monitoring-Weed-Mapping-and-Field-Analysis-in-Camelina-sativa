@@ -30,29 +30,15 @@ The dataset was created to support research in computer vision, precision agricu
 ## Annotation Preview
 
 <p align="center">
-
-  <span style="display:inline-block; width:45%; height:260px; overflow:hidden; vertical-align:top;">
-    <img 
-      src="figures/Raw%20UAV-acquired%20image.JPG"
-      width="100%"
-      style="margin-bottom:-60px;"
-    >
-  </span>
-
+  <img src="figures/Raw%20UAV-acquired%20image.JPG" width="45%">
   &nbsp;&nbsp;
-
-  <img 
-    src="figures/weed-mapping-annotation.png" 
-    width="45%"
-  >
-
+  <img src="figures/weed-mapping-annotation.png" width="45%">
 </p>
 
 <p align="center">
   <b>From raw UAV imagery to expert-annotated weed maps.</b><br>
   <i>Example of polygon-based weed annotations for field-level weed monitoring.</i>
 </p>
-
 
 ---
 
