@@ -30,7 +30,7 @@ The dataset was created to support research in computer vision, precision agricu
 ## Annotation Preview
 
 <p align="center">
-  <img src="figures/Raw%20UAV-acquired%20image.JPG" width="45%">
+  <img src="figures/Raw%20UAV-acquired%20image.png" width="45%">
   &nbsp;&nbsp;
   <img src="figures/weed-mapping-annotation.png" width="45%">
 </p>
