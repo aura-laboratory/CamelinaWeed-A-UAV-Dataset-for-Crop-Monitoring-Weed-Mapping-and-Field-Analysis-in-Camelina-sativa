@@ -16,7 +16,17 @@
   <img src="figures/CamelinaWeed.png" width="470">
 </p>
 
+## Table of Contents
 
+- [Overview](#overview)
+- [Annotation Preview](#annotation-preview)
+- [Specifications Table](#specifications-table)
+- [UAV Data Summary](#uav-data-summary)
+- [UAV Flight Parameters](#uav-flight-parameters)
+- [Dataset Evaluation with RT-DETR-L](#dataset-evaluation-with-rt-detr-l)
+- [Dataset Structure](#dataset-structure)
+
+  
 ## Overview
 
 This repository provides documentation for **CamelinaWeed**, a UAV-based dataset collected in *Camelina sativa* fields in Greece.
