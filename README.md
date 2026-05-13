@@ -2,7 +2,7 @@
 <tr>
 <td width="140">
 
-<img src="figures/camelinaweed_logo.png" width="110">
+<img src="figures/CamelinaWeed.png" width="110">
 
 </td>
 
