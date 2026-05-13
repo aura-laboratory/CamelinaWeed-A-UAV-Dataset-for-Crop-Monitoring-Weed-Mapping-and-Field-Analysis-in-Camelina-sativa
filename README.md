@@ -1,7 +1,10 @@
-# CamelinaWeed: An Expert-Agronomist-Annotated UAV RGB and Multispectral Dataset for Weed and Crop Monitoring in *Camelina sativa*
-
 <p align="center">
-  <b>RGB and multispectral UAV imagery with polygon-based weed annotations for precision agriculture research.</b>
+  <img src="figures/CamelinaWeed.png" width="120">
+</p>
+
+# CamelinaWeed: An Expert-Agronomist-Annotated UAV RGB and Multispectral Dataset for Weed and Crop Monitoring in *Camelina sativa*
+<p align="center">
+  <b>RGB and multispectral UAV imagery with polygon-based weed annotations by expert agronomists for precision agriculture research.</b>
 </p>
 
 <p align="center">
@@ -10,14 +13,6 @@
   <a href="https://doi.org/10.5281/zenodo.20148697"><b>DOI</b></a>
 </p>
 
-
-<p align="center">
-  <img src="figures/CamelinaWeed.png" width="650">
-</p>
-
-<p align="center">
-  <em>CamelinaWeed: UAV RGB and multispectral imagery with expert weed annotations.</em>
-</p>
 ---
 
 ## Overview
