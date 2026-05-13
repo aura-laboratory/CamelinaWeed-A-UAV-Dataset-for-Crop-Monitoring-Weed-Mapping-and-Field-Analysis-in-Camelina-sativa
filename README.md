@@ -19,13 +19,12 @@
 
 ## Overview
 
-This repository provides documentation for a UAV-based dataset collected in *Camelina sativa* fields in Greece.
+This repository provides documentation for **CamelinaWeed**, a UAV-based dataset collected in *Camelina sativa* fields in Greece.
 
-The dataset includes RGB and multispectral UAV imagery acquired from agricultural fields in Thessaloniki and Chalkidiki during summer 2025 and winter 2025–2026. It contains manually annotated RGB images with polygon-based weed annotations, as well as unannotated RGB images, multispectral images, raw UAV images, and orthomosaic products.
+The dataset includes RGB and multispectral UAV imagery acquired from agricultural fields in Thessaloniki and Chalkidiki during summer 2025 and winter 2025–2026. It contains annotated RGB images with polygon-based weed annotations created by human experts. In addition to the annotated data, the dataset also provides raw RGB imagery, multispectral images, and orthomosaic products.
 
-The dataset was created to support research in computer vision, precision agriculture, weed detection, crop monitoring, and field-level analysis under realistic agricultural conditions.
+CamelinaWeed was created to support research in computer vision, precision agriculture, weed detection, crop monitoring, and field-level analysis under realistic agricultural conditions.
 
----
 
 ## Annotation Preview
 
