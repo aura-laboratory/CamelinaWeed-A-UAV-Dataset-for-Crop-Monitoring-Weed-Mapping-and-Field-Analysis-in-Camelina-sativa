@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="DATASET_DOWNLOAD_LINK"><b>Dataset</b></a> ·
+  <a href="https://doi.org/10.5281/zenodo.20148697"><b>Dataset</b></a> ·
   <a href="PAPER_LINK"><b>Paper</b></a> ·
   <a href="https://doi.org/10.5281/zenodo.20148697"><b>DOI</b></a>
 </p>
@@ -62,7 +62,7 @@ CamelinaWeed was created to support research in computer vision, precision agric
 | **Data format** | Annotated RGB images: 3023 JPEG images; raw unannotated RGB images: JPEG; polygon annotations: JSON; orthomosaics: GeoTIFF; raw unannotated multispectral images: multi-band TIFF. |
 | **Description of data collection** | RGB images were collected while UAVs performed coverage missions over *Camelina sativa* fields. During flights, the camera gimbal was adjusted to -89°, vertically oriented toward the field. Image acquisition was performed at flight altitudes of 2 m, 3 m, 5 m, and 10 m, depending on the field and UAV platform. Flight speed was set to 3 m/s. The dataset includes data from three agricultural fields in Thessaloniki and Chalkidiki, Greece, during summer and winter cultivation periods. |
 | **Data source location** | Winter cultivation field — Thessaloniki, Greece: <br> `[40.766551, 22.993202; 40.766327, 22.994137; 40.767043, 22.994564; 40.767380, 22.993470]` <br><br> Winter cultivation field — Chalkidiki, Greece: <br> `[40.368424, 23.068174; 40.368555, 23.069137; 40.369965, 23.068723; 40.369791, 23.067736]` <br><br> Summer cultivation field — Thessaloniki, Greece: <br> `[40.565772, 22.990067; 40.566154, 22.991342; 40.568324, 22.989971; 40.567646, 22.988174; 40.566623, 22.988909]` |
-| **Data accessibility** | **Repository name:** *CamelinaWeed: An Expert-Agronomist-Annotated UAV RGB and Multispectral Dataset for Weed and Crop Monitoring in *Camelina sativa** <br><br> **Direct URL to data:** [GitHub repository](https://github.com/aura-laboratory/A-UAV-Dataset-for-Crop-Monitoring-Weed-Mapping-and-Field-Analysis-in-Camelina-sativa) <br><br> **DOI:** [10.5281/zenodo.20148697](https://doi.org/10.5281/zenodo.20148697) <br><br> **Database description:** GitHub repository containing dataset documentation, dataset structure, annotation information, and download instructions. |
+| **Data accessibility** | **Repository name:** *CamelinaWeed--A UAV Dataset for Crop Monitoring, Weed Mapping, and Field Analysis in Camelina sativa* <br><br> **Direct URL to data:** [Zenodo dataset](https://doi.org/10.5281/zenodo.20148697) <br><br> **GitHub repository:** [CamelinaWeed](https://github.com/aura-laboratory/A-UAV-Dataset-for-Crop-Monitoring-Weed-Mapping-and-Field-Analysis-in-Camelina-sativa) <br><br> **DOI:** [10.5281/zenodo.20148697](https://doi.org/10.5281/zenodo.20148697) <br><br> **Database description:** The complete dataset files are hosted on Zenodo, while the GitHub repository provides dataset documentation, directory structure, annotation information, and download instructions. |
 
 
 ## UAV Data Summary
